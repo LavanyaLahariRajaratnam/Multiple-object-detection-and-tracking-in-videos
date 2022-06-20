@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(to top left, #fff, #fff2cf);
+	background-repeat: cover;
+	color: black;
+}
+
+.sign-in-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	background: rgba(255, 255, 255, 1);
+	width: 100%;
+	padding: 2vh;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px 4px;
+}
+
+.navbar-brand {
+	font-size: xx-large;
+	text-align: center;
+	margin-left: 250px;
+	padding: 20px;
+	color: white;
+}
+
+.navbar-brand:hover {
+	text-decoration: none;
+	color: white;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	/* background-image: url('https://www.beebotech.com.au/wp-content/uploads/2018/01/ml.jpg'); */
+
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.form-control {
+	max-width: 300px;
+}
+
+.main-form {
+	margin: auto;
+	width: 50%;
+	/* border: 3px solid green; */
+	padding: 10px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* 
+
+.form-control {
+    max-width: 300px;
+}
+
+.mainDiv {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+p,
+label,
+li {
+    color: white;
+} */
